@@ -1,0 +1,18 @@
+{
+    "name": "maic_nogueira/alternativa",
+    "description": "Site da alternativa provedor",
+    "authors": [
+        {
+            "name": "Maic Nogueira",
+            "email": "47071934+maicnogueira@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
